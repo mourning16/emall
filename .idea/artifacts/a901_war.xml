@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="a901:war">
+    <output-path>$PROJECT_DIR$/emall-api/a901/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>a901</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="a901-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="a901:war exploded" />
+    </root>
+  </artifact>
+</component>

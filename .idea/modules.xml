@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/emall-api/a901/a901.iml" filepath="$PROJECT_DIR$/emall-api/a901/a901.iml" />
+      <module fileurl="file://$PROJECT_DIR$/emall-api/a901/a901.iml" filepath="$PROJECT_DIR$/emall-api/a901/a901.iml" />
       <module fileurl="file://$PROJECT_DIR$/emall.iml" filepath="$PROJECT_DIR$/emall.iml" />
       <module fileurl="file://$PROJECT_DIR$/emall-api/emall-api.iml" filepath="$PROJECT_DIR$/emall-api/emall-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/emall-interface/emall-interface.iml" filepath="$PROJECT_DIR$/emall-interface/emall-interface.iml" />
