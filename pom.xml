@@ -10,12 +10,14 @@
     </parent>
     <groupId>cn.com.sinosoft</groupId>
     <artifactId>emall</artifactId>
+    <packaging>pom</packaging>
     <version>0.0.1-SNAPSHOT</version>
     <name>emall</name>
     <description>emall-dubbo-project</description>
 
     <properties>
         <java.version>1.8</java.version>
+        <springboot.version>2.3.3.RELEASE</springboot.version>
     </properties>
 
     <modules>
@@ -29,6 +31,7 @@
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter</artifactId>
+                <version>${springboot.version}</version>
             </dependency>
 
             <dependency>
@@ -42,17 +45,12 @@
                 <artifactId>mysql-connector-java</artifactId>
                 <scope>runtime</scope>
             </dependency>
+
             <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-starter-test</artifactId>
-                <scope>test</scope>
-                <exclusions>
-                    <exclusion>
-                        <groupId>org.junit.vintage</groupId>
-                        <artifactId>junit-vintage-engine</artifactId>
-                    </exclusion>
-                </exclusions>
+                <groupId>cn.com.sinosoft</groupId>
+                <artifactId>i200</artifactId>
             </dependency>
+
         </dependencies>
     </dependencyManagement>
 

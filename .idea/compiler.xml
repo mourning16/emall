@@ -6,25 +6,31 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="emall" />
-        <module name="emall-api" />
+        <module name="a901" />
         <module name="emall-interface" />
-        <module name="emall-interface-service" />
+        <module name="i200" />
+        <module name="s200" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="a901" target="1.8" />
       <module name="emall" target="1.8" />
       <module name="emall-api" target="1.8" />
       <module name="emall-interface" target="1.8" />
       <module name="emall-interface-service" target="1.8" />
+      <module name="i200" target="1.8" />
+      <module name="s200" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="a901" options="-parameters" />
       <module name="emall" options="-parameters" />
       <module name="emall-api" options="-parameters" />
       <module name="emall-interface" options="-parameters" />
       <module name="emall-interface-service" options="-parameters" />
+      <module name="i200" options="-parameters" />
+      <module name="s200" options="-parameters" />
     </option>
   </component>
 </project>
