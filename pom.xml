@@ -22,8 +22,11 @@
 
     <modules>
         <module>emall-api</module>
+        <module>emall-api/a901</module>
         <module>emall-interface</module>
+        <module>emall-interface/i200</module>
         <module>emall-interface-service</module>
+        <module>emall-interface-service/s200</module>
     </modules>
 
     <dependencyManagement>

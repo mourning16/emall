@@ -13,12 +13,9 @@
         <groupId>cn.com.sinosoft</groupId>
         <artifactId>emall</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath>../pom.xml</relativePath> <!-- lookup parent from repository -->
+        <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <modules>
-        <module>a901</module>
-    </modules>
 
     <properties>
         <java.version>1.8</java.version>
