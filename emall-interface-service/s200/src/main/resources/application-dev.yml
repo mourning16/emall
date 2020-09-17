@@ -1,0 +1,11 @@
+dubbo:
+  application:
+    name: s200
+  registry:
+    address: zookeeper://127.0.0.1:2181
+  protocol:
+    name: dubbo
+    port: 20881
+  scan:
+    base-packages: cn.com.sinosoft.s200
+
