@@ -27,7 +27,7 @@
             <artifactId>spring-boot-starter</artifactId>
         </dependency>
 
-        <!--zookeeper æ³¨å†Œä¸­å¿ƒå®¢æˆ·ç«¯å¼•å…¥ ä½¿ç”¨çš„æ˜¯curatorå®¢æˆ·ç«¯ -->
+        <!--zookeeper ×¢²áÖÐÐÄ¿Í»§¶ËÒýÈë Ê¹ÓÃµÄÊÇcurator¿Í»§¶Ë -->
         <dependency>
             <groupId>org.apache.dubbo</groupId>
             <artifactId>dubbo-dependencies-zookeeper</artifactId>
@@ -40,7 +40,7 @@
                 </exclusion>
             </exclusions>
         </dependency>
-        <!-- dubbo 2.7.xå¼•å…¥-->
+        <!-- dubbo 2.7.xÒýÈë-->
         <dependency>
             <groupId>org.apache.dubbo</groupId>
             <artifactId>dubbo-spring-boot-starter</artifactId>

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/emall-api/a901" />
-    <file type="web" url="file://$PROJECT_DIR$/emall-interface-service/s200" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -12,8 +11,6 @@
         <option value="$PROJECT_DIR$/emall-interface/pom.xml" />
         <option value="$PROJECT_DIR$/emall-interface-service/pom.xml" />
         <option value="$PROJECT_DIR$/emall-api/a901/pom.xml" />
-        <option value="$PROJECT_DIR$/emall-interface/i200/pom.xml" />
-        <option value="$PROJECT_DIR$/emall-interface-service/s200/pom.xml" />
       </list>
     </option>
   </component>
