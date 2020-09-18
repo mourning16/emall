@@ -2,6 +2,7 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/emall-api/a901" />
+    <file type="web" url="file://$PROJECT_DIR$/emall-interface-service/s200" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">

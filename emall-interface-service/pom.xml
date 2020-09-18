@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
 
+    <modelVersion>4.0.0</modelVersion>
     <groupId>cn.com.sinosoft</groupId>
     <artifactId>emall-interface-service</artifactId>
-    <packaging>pom</packaging>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
     <name>emall-interface-service</name>
     <description>emall-interface-service</description>
 
@@ -27,7 +27,7 @@
             <artifactId>spring-boot-starter</artifactId>
         </dependency>
 
-        <!--zookeeper 注册中心客户端引入 使用的是curator客户端 -->
+        <!--zookeeper -->
         <dependency>
             <groupId>org.apache.dubbo</groupId>
             <artifactId>dubbo-dependencies-zookeeper</artifactId>
@@ -40,11 +40,18 @@
                 </exclusion>
             </exclusions>
         </dependency>
-        <!-- dubbo 2.7.x引入-->
+        <!-- dubbo 2.7.-->
         <dependency>
             <groupId>org.apache.dubbo</groupId>
             <artifactId>dubbo-spring-boot-starter</artifactId>
             <version>2.7.4.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>cn.com.sinosoft</groupId>
+            <artifactId>i200</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
         </dependency>
 
     </dependencies>
