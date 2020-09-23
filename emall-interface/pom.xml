@@ -4,6 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>cn.com.sinosoft</groupId>
     <artifactId>emall-interface</artifactId>
+    <packaging>pom</packaging>
     <version>0.0.1-SNAPSHOT</version>
     <name>emall-interface</name>
     <description>emall-interface</description>
@@ -12,7 +13,7 @@
         <groupId>cn.com.sinosoft</groupId>
         <artifactId>emall</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath/><!-- lookup parent from repository -->
+        <relativePath>../pom.xml</relativePath><!-- lookup parent from repository -->
     </parent>
 
 
@@ -28,13 +29,5 @@
         </dependency>
     </dependencies>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>

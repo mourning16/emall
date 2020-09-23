@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/emall-interface/pom.xml" />
         <option value="$PROJECT_DIR$/emall-interface-service/pom.xml" />
         <option value="$PROJECT_DIR$/emall-api/a901/pom.xml" />
+        <option value="$PROJECT_DIR$/emall-commons/pom.xml" />
       </list>
     </option>
   </component>

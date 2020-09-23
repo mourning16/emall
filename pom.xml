@@ -27,6 +27,7 @@
         <module>emall-interface/i200</module>
         <module>emall-interface-service</module>
         <module>emall-interface-service/s200</module>
+        <module>emall-commons</module>
     </modules>
 
     <dependencyManagement>
@@ -78,14 +79,5 @@
 
         </dependencies>
     </dependencyManagement>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>

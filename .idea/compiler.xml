@@ -7,7 +7,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="a901" />
-        <module name="emall-interface" />
         <module name="i200" />
         <module name="s200" />
       </profile>
@@ -16,6 +15,8 @@
       <module name="a901" target="1.8" />
       <module name="emall" target="1.8" />
       <module name="emall-api" target="1.8" />
+      <module name="emall-commons" target="1.8" />
+      <module name="emall-commons-datasource" target="1.8" />
       <module name="emall-interface" target="1.8" />
       <module name="emall-interface-service" target="1.8" />
       <module name="i200" target="1.8" />
@@ -27,6 +28,8 @@
       <module name="a901" options="-parameters" />
       <module name="emall" options="-parameters" />
       <module name="emall-api" options="-parameters" />
+      <module name="emall-commons" options="" />
+      <module name="emall-commons-datasource" options="-parameters" />
       <module name="emall-interface" options="-parameters" />
       <module name="emall-interface-service" options="-parameters" />
       <module name="i200" options="-parameters" />
