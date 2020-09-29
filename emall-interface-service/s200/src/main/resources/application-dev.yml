@@ -9,3 +9,29 @@ dubbo:
   scan:
     base-packages: cn.com.sinosoft.s200
 
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://111.231.137.18:3306/rjxt?useSSL=true&characterEncoding=UTF-8
+    username: root
+    password: wupan5218745
+
+mybatis-plus:
+  global-config:
+    #主键类型  0:"数据库ID自增", 1:"用户输入ID",2:"全局唯一ID (数字类型唯一ID)", 3:"全局唯一ID UUID";
+    id-type: 1
+    #字段策略 0:"忽略判断",1:"非 NULL 判断"),2:"非空判断"
+    field-strategy: 2
+    #驼峰下划线转换
+    db-column-underline: true
+  configuration:
+    #十日打印开关
+    #log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    #驼峰转下划线
+    map-underscore-to-camel-case: true
+    #关闭缓存
+    cache-enabled: false
+    #表地段记录为null时候返回null
+    call-setters-on-nulls: true
+
+

@@ -47,6 +47,7 @@
             <dependency>
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
+                <version>5.1.6</version>
                 <scope>runtime</scope>
             </dependency>
 
@@ -71,11 +72,38 @@
             </dependency>
 
             <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
+                <version>3.0.6</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid-spring-boot-starter</artifactId>
+                <version>1.1.9</version>
+            </dependency>
+
+
+            <dependency>
                 <groupId>cn.com.sinosoft</groupId>
                 <artifactId>i200</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
                 <scope>compile</scope>
             </dependency>
+
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.16.18</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>1.2.9</version>
+            </dependency>
+
+
 
         </dependencies>
     </dependencyManagement>

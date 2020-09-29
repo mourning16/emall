@@ -60,6 +60,7 @@
           <element id="archive" name="i200-0.0.1-SNAPSHOT.jar">
             <element id="module-output" name="i200" />
           </element>
+          <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.9" />
         </element>
       </element>
       <element id="directory" name="META-INF">
