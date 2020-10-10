@@ -2,24 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c88798e-5137-44ce-8e00-96c3bbed7d52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emall-interface-service/s200/src/main/java/cn/com/sinosoft/s200/dao/RoleDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/a901_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/a901_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/s200_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/s200_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emall-api/a901/src/main/java/cn/com/sinosoft/a901/config/FilterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emall-api/a901/src/main/java/cn/com/sinosoft/a901/config/InterceptorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emall-api/a901/src/main/java/cn/com/sinosoft/a901/filter/ReplaceStreamFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emall-api/a901/src/main/java/cn/com/sinosoft/a901/interceptor/SignatureInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emall-api/a901/src/main/java/cn/com/sinosoft/a901/wrapper/RequestWrapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-api/a901/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/emall-api/a901/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/emall-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-interface-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/emall-interface-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-interface-service/s200/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/emall-interface-service/s200/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-interface-service/s200/src/main/java/cn/com/sinosoft/s200/S200Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/emall-interface-service/s200/src/main/java/cn/com/sinosoft/s200/S200Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-interface-service/s200/src/main/java/cn/com/sinosoft/s200/service/DemoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/emall-interface-service/s200/src/main/java/cn/com/sinosoft/s200/service/DemoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-interface-service/s200/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/emall-interface-service/s200/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-interface/i200/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/emall-interface/i200/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,17 +31,75 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/emall-interface-service/s200/src/main/java/cn/com/sinosoft/s200/service/DemoServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="44" lean-forward="true" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+            <state relative-caret-position="342">
+              <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/emall-api/a901/src/main/java/cn/com/sinosoft/a901/filter/ReplaceStreamFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="349">
+              <caret line="26" column="49" lean-forward="true" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#689#690#0" expanded="true" />
+                <element signature="e#734#735#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/emall-interface/pom.xml">
+        <entry file="file://$PROJECT_DIR$/emall-api/a901/src/main/java/cn/com/sinosoft/a901/wrapper/RequestWrapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="55" lean-forward="true" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
+            <state relative-caret-position="76">
+              <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/emall-api/a901/src/main/java/cn/com/sinosoft/a901/interceptor/SignatureInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-140">
+              <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/emall-api/a901/src/main/java/cn/com/sinosoft/a901/config/FilterConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/emall-api/a901/src/main/java/cn/com/sinosoft/a901/config/InterceptorConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#233#234#0" expanded="true" />
+                <element signature="e#282#283#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -63,8 +109,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -98,6 +144,12 @@
         <option value="$PROJECT_DIR$/emall-interface-service/s200/pom.xml" />
         <option value="$PROJECT_DIR$/emall-interface-service/s200/src/main/java/cn/com/sinosoft/s200/entity/Role.java" />
         <option value="$PROJECT_DIR$/emall-interface-service/s200/src/main/java/cn/com/sinosoft/s200/service/DemoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/emall-interface-service/s200/src/main/java/cn/com/sinosoft/s200/config/FilterConfig.java" />
+        <option value="$PROJECT_DIR$/emall-interface-service/s200/src/main/java/cn/com/sinosoft/s200/wrapper/RequestWrapper.java" />
+        <option value="$PROJECT_DIR$/emall-interface-service/s200/src/main/java/cn/com/sinosoft/s200/filter/ReplaceStreamFilter.java" />
+        <option value="$PROJECT_DIR$/emall-interface-service/s200/src/main/java/cn/com/sinosoft/s200/config/InterceptorConfig.java" />
+        <option value="$PROJECT_DIR$/emall-interface-service/s200/src/main/java/cn/com/sinosoft/s200/interceptor/SignatureInterceptor.java" />
+        <option value="$PROJECT_DIR$/emall-api/a901/src/main/java/cn/com/sinosoft/a901/config/FilterConfig.java" />
       </list>
     </option>
   </component>
@@ -131,7 +183,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -142,17 +193,97 @@
             <path>
               <item name="emall" type="b2602c69:ProjectViewProjectNode" />
               <item name="emall" type="462c0819:PsiDirectoryNode" />
-              <item name="emall-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="emall-api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="emall" type="b2602c69:ProjectViewProjectNode" />
               <item name="emall" type="462c0819:PsiDirectoryNode" />
-              <item name="emall-interface-service" type="462c0819:PsiDirectoryNode" />
+              <item name="emall-api" type="462c0819:PsiDirectoryNode" />
+              <item name="a901" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="emall" type="462c0819:PsiDirectoryNode" />
+              <item name="emall-api" type="462c0819:PsiDirectoryNode" />
+              <item name="a901" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="emall" type="462c0819:PsiDirectoryNode" />
+              <item name="emall-api" type="462c0819:PsiDirectoryNode" />
+              <item name="a901" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="emall" type="462c0819:PsiDirectoryNode" />
+              <item name="emall-api" type="462c0819:PsiDirectoryNode" />
+              <item name="a901" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="emall" type="462c0819:PsiDirectoryNode" />
+              <item name="emall-api" type="462c0819:PsiDirectoryNode" />
+              <item name="a901" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="a901" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="emall" type="462c0819:PsiDirectoryNode" />
+              <item name="emall-api" type="462c0819:PsiDirectoryNode" />
+              <item name="a901" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="a901" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="emall" type="462c0819:PsiDirectoryNode" />
+              <item name="emall-api" type="462c0819:PsiDirectoryNode" />
+              <item name="a901" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="a901" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="emall" type="462c0819:PsiDirectoryNode" />
+              <item name="emall-api" type="462c0819:PsiDirectoryNode" />
+              <item name="a901" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="a901" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="emall" type="462c0819:PsiDirectoryNode" />
+              <item name="emall-api" type="462c0819:PsiDirectoryNode" />
+              <item name="a901" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="a901" type="462c0819:PsiDirectoryNode" />
+              <item name="wrapper" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -163,8 +294,8 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1601294343455" />
-    <property name="last_opened_file_path" value="H:/#16054/springboot-proposal" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602295598365" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -174,6 +305,9 @@
     <property name="settings.editor.selected.configurable" value="Lombok plugin" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="cn.com.sinosoft.a901" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="H:\emall" />
     </key>
@@ -299,16 +433,23 @@
       <workItem from="1601297589555" duration="791000" />
       <workItem from="1601304102801" duration="23000" />
       <workItem from="1601343121616" duration="717000" />
+      <workItem from="1601367041728" duration="5341000" />
+      <workItem from="1601429242793" duration="648000" />
+      <workItem from="1601643293576" duration="305000" />
+      <workItem from="1602217082779" duration="515000" />
+      <workItem from="1602222333926" duration="340000" />
+      <workItem from="1602293734877" duration="1864000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63849000" />
+    <option name="totallyTimeSpent" value="72862000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3069705" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33310992" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -327,7 +468,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.22521247" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.4164306" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.41584158" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.14305949" />
@@ -336,13 +477,13 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.1541555" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.1541555" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30898124" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31903484" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -352,7 +493,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.3512748" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -360,8 +501,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.4164306" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.22521247" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" visible="true" weight="0.41584158" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.14305949" />
@@ -370,7 +511,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.29758713" />
+      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.1541555" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
@@ -505,20 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/emall-interface-service/s200/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/emall-interface-service/s200/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo/pom.xml" />
     <entry file="file://$PROJECT_DIR$/emall-api/a901/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -582,20 +709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/emall-interface-service/s200/src/main/java/cn/com/sinosoft/s200/service/DemoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="44" lean-forward="true" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/emall-interface-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="54" column="20" lean-forward="true" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="349">
@@ -603,10 +716,102 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/emall-interface-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="47" column="34" lean-forward="true" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/emall-interface/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="55" lean-forward="true" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
+        <state relative-caret-position="266">
+          <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emall-interface-service/s200/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emall-interface-service/s200/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/jdk/src.zip!/javax/xml/ws/RequestWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emall-interface-service/s200/src/main/java/cn/com/sinosoft/s200/service/DemoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emall-api/a901/src/main/java/cn/com/sinosoft/a901/config/InterceptorConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emall-api/a901/src/main/java/cn/com/sinosoft/a901/interceptor/SignatureInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-140">
+          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emall-api/a901/src/main/java/cn/com/sinosoft/a901/config/FilterConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emall-api/a901/src/main/java/cn/com/sinosoft/a901/filter/ReplaceStreamFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="26" column="49" lean-forward="true" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emall-api/a901/src/main/java/cn/com/sinosoft/a901/wrapper/RequestWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
