@@ -1,6 +1,7 @@
 package cn.com.sinosoft.a901.interceptor;
 
 import cn.com.sinosoft.a901.wrapper.RequestWrapper;
+import com.alibaba.fastjson.JSONObject;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.MediaType;
 import org.springframework.web.servlet.HandlerInterceptor;
@@ -8,6 +9,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.PrintWriter;
 
 /**
  * @Description TODO
@@ -27,6 +29,23 @@ public class SignatureInterceptor implements HandlerInterceptor {
             log.info("[preHandle] json数据 : {}", jsonParam);
 
             // 此处写业务需要的代码逻辑!!!!!!!
+
+
+
+
+            if(false){
+                response.setCharacterEncoding("UTF-8");
+                response.setContentType("application/json; charset=utf-8");
+                PrintWriter out = null ;
+                JSONObject res = new JSONObject();
+
+                res.put("code","1");
+                //讲验签结果放到res里面返回到前端
+                out = response.getWriter();
+                out.append(res.toString());
+                return false;
+            }
+
         }
 
         return true;
