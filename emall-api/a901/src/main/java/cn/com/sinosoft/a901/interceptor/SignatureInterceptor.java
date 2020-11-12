@@ -22,15 +22,12 @@ public class SignatureInterceptor implements HandlerInterceptor {
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
-        log.info("[preHandle] executing... request uri is {}", request.getRequestURI());
         if (isJson(request)) {
             // 获取json字符串
             String jsonParam = new RequestWrapper(request).getBodyString();
             log.info("[preHandle] json数据 : {}", jsonParam);
 
             // 此处写业务需要的代码逻辑!!!!!!!
-
-
 
 
             if(false){
