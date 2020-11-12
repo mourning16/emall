@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/emall-api/a901/a901.iml" filepath="$PROJECT_DIR$/emall-api/a901/a901.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/emall.iml" filepath="$PROJECT_DIR$/.idea/emall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/emall-afp/emall-afp.iml" filepath="$PROJECT_DIR$/emall-afp/emall-afp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/emall-api/emall-api.iml" filepath="$PROJECT_DIR$/emall-api/emall-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/emall-afp/emall-auth/emall-auth.iml" filepath="$PROJECT_DIR$/emall-afp/emall-auth/emall-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/emall-interface/emall-interface.iml" filepath="$PROJECT_DIR$/emall-interface/emall-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/emall-interface-service/emall-interface-service.iml" filepath="$PROJECT_DIR$/emall-interface-service/emall-interface-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/emall-interface/i200/i200.iml" filepath="$PROJECT_DIR$/emall-interface/i200/i200.iml" />
+      <module fileurl="file://$PROJECT_DIR$/emall-interface-service/s200/s200.iml" filepath="$PROJECT_DIR$/emall-interface-service/s200/s200.iml" />
+    </modules>
+  </component>
+</project>

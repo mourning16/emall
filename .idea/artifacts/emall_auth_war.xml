@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="emall-auth:war">
+    <output-path>$PROJECT_DIR$/emall-afp/emall-auth/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>emall-auth</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="emall-auth-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="emall-auth:war exploded" />
+    </root>
+  </artifact>
+</component>
