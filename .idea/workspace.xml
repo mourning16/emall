@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c88798e-5137-44ce-8e00-96c3bbed7d52" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emall-afp/emall-auth/src/main/java/cn/com/sinosoft/auth/filter/AuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/emall-afp/emall-auth/src/main/java/cn/com/sinosoft/auth/filter/AuthFilter.java" afterDir="false" />
-    </list>
+    <list default="true" id="7c88798e-5137-44ce-8e00-96c3bbed7d52" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/emall-api/target/" />
@@ -30,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/emall-afp/emall-auth/src/main/java/cn/com/sinosoft/auth/filter/AuthFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+            <state relative-caret-position="411">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -424,12 +421,12 @@
       <workItem from="1605168853345" duration="271000" />
       <workItem from="1605183453582" duration="3023000" />
       <workItem from="1605256075856" duration="3678000" />
-      <workItem from="1605334671937" duration="4224000" />
+      <workItem from="1605334671937" duration="5250000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136291000" />
+    <option name="totallyTimeSpent" value="137317000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -848,8 +845,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/emall-afp/emall-auth/src/main/java/cn/com/sinosoft/auth/filter/AuthFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+        <state relative-caret-position="411">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
