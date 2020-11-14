@@ -19,6 +19,7 @@ public class AuthFilter implements Filter {
     public Result invoke(Invoker<?> invoker, Invocation invocation) throws RpcException {
 
         log.info("是否为生产者："+RpcContext.getContext().isProviderSide());
+
         return invoker.invoke(invocation);
 
     }
