@@ -27,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/emall-afp/emall-auth/src/main/java/cn/com/sinosoft/auth/filter/AuthFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="286">
+              <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -170,36 +170,6 @@
               <item name="emall-auth" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="emall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="emall" type="462c0819:PsiDirectoryNode" />
-              <item name="emall-afp" type="462c0819:PsiDirectoryNode" />
-              <item name="emall-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="emall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="emall" type="462c0819:PsiDirectoryNode" />
-              <item name="emall-afp" type="462c0819:PsiDirectoryNode" />
-              <item name="emall-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-              <item name="filter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="emall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="emall" type="462c0819:PsiDirectoryNode" />
-              <item name="emall-afp" type="462c0819:PsiDirectoryNode" />
-              <item name="emall-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -216,7 +186,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1605195705197" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="H:/demo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -421,16 +391,15 @@
       <workItem from="1605168853345" duration="271000" />
       <workItem from="1605183453582" duration="3023000" />
       <workItem from="1605256075856" duration="3678000" />
-      <workItem from="1605334671937" duration="5250000" />
+      <workItem from="1605334671937" duration="5542000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137317000" />
+    <option name="totallyTimeSpent" value="137609000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49786323" visible="true" weight="0.27345845" />
       <window_info id="Structure" order="1" sideWeight="0.50213677" side_tool="true" weight="0.2841823" />
@@ -845,8 +814,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/emall-afp/emall-auth/src/main/java/cn/com/sinosoft/auth/filter/AuthFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="286">
+          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
