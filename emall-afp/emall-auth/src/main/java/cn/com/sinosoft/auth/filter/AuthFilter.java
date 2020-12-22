@@ -10,6 +10,9 @@ import org.apache.dubbo.rpc.*;
  * @Author Mourning 16
  * @Date 2020/11/12 13:59
  * @Version 1.0
+ *
+ * dubbo的自激活特性
+ *
  */
 @Slf4j
 @Activate(group= {Constants.CONSUMER, Constants.PROVIDER},order = -3000)
@@ -18,7 +21,7 @@ public class AuthFilter implements Filter {
     @Override
     public Result invoke(Invoker<?> invoker, Invocation invocation) throws RpcException {
 
-        log.info("是否为生产者："+RpcContext.getContext().isProviderSide());
+        log.info("是否为生产者：" + RpcContext.getContext().isProviderSide());
 
         return invoker.invoke(invocation);
 
