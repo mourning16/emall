@@ -1,7 +1,6 @@
 package cn.com.sinosoft.a901.controller;
 
 import cn.com.sinosoft.i200.service.DemoService;
-import com.sun.org.apache.xerces.internal.util.SynchronizedSymbolTable;
 import org.apache.dubbo.config.annotation.Reference;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
