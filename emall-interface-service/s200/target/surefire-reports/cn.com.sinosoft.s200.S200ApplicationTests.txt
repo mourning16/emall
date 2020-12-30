@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: cn.com.sinosoft.s200.S200ApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.161 s - in cn.com.sinosoft.s200.S200ApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.872 s - in cn.com.sinosoft.s200.S200ApplicationTests

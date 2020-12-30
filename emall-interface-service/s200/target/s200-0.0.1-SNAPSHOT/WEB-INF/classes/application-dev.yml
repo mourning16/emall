@@ -8,6 +8,8 @@ dubbo:
     port: 20881
   scan:
     base-packages: cn.com.sinosoft.s200
+  provider:
+    filter: authFilter
 
 druid:
   #<!--阿里巴巴druid数据库连接池--><!--http://localhost:8080/druid/index.html-->:
@@ -32,7 +34,7 @@ spring:
       maxActive: 20
       # 配置获取连接等待超时的时间
       maxWait: 60000
-      # 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
+      # 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒  -1表示不检查
       timeBetweenEvictionRunsMillis: 60000
       # 配置一个连接在池中最小生存的时间，单位是毫秒
       minEvictableIdleTimeMillis: 300000

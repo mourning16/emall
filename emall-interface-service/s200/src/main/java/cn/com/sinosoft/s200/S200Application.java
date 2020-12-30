@@ -7,7 +7,7 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 import org.springframework.web.WebApplicationInitializer;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = {"cn.com.sinosoft"})
 @MapperScan(basePackages = "cn.com.sinosoft.s200.dao")
 public class S200Application extends SpringBootServletInitializer implements WebApplicationInitializer {
 

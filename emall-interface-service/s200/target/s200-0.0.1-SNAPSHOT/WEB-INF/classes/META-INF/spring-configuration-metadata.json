@@ -3,7 +3,7 @@
     {
       "name": "spring.datasource",
       "type": "javax.sql.DataSource",
-      "sourceType": "cn.com.sinosoft.s200.config.DuridConfig",
+      "sourceType": "cn.com.sinosoft.s200.config.DruidConfig",
       "sourceMethod": "druidDataSource()"
     }
   ],

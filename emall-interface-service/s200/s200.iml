@@ -120,6 +120,7 @@
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.30" level="project" />
     <orderEntry type="module" module-name="i200" />
     <orderEntry type="module" module-name="emall-auth" />
+    <orderEntry type="module" module-name="emall-util" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.projectlombok:lombok:1.16.18" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba:fastjson:1.2.9" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba:druid:1.1.1" level="project" />

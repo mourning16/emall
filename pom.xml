@@ -23,6 +23,7 @@
     <modules>
         <module>emall-afp</module>
         <module>emall-afp/emall-auth</module>
+        <module>emall-afp/emall-util</module>
         <module>emall-api</module>
         <module>emall-api/a901</module>
         <module>emall-interface</module>
@@ -95,7 +96,12 @@
                 <groupId>cn.com.sinosoft</groupId>
                 <artifactId>emall-auth</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
-                <scope>compile</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>cn.com.sinosoft</groupId>
+                <artifactId>emall-util</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
             </dependency>
 
             <dependency>

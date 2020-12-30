@@ -15,10 +15,13 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/emall-afp/pom.xml" />
         <option value="$PROJECT_DIR$/emall-afp/emall-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/emall-afp/emall-utils/pom.xml" />
+        <option value="$PROJECT_DIR$/emall-afp/emall-util/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/emall-afp/emall-utils/pom.xml" />
         <option value="$PROJECT_DIR$/emall-afp/pom.xml" />
       </set>
     </option>

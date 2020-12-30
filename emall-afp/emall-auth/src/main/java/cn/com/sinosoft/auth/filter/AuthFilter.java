@@ -10,12 +10,11 @@ import org.apache.dubbo.rpc.*;
  * @Author Mourning 16
  * @Date 2020/11/12 13:59
  * @Version 1.0
- *
+ * <p>
  * dubbo的自激活特性
- *
  */
 @Slf4j
-@Activate(group= {Constants.CONSUMER, Constants.PROVIDER},order = -3000)
+@Activate(group = {Constants.CONSUMER, Constants.PROVIDER}, order = -3000)
 public class AuthFilter implements Filter {
 
     @Override
