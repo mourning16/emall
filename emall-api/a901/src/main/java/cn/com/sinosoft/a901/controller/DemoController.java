@@ -1,6 +1,7 @@
 package cn.com.sinosoft.a901.controller;
 
 import cn.com.sinosoft.i200.service.DemoService;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.curator.framework.CuratorFramework;
 import org.apache.curator.framework.CuratorFrameworkFactory;
 import org.apache.curator.framework.imps.CuratorFrameworkState;
@@ -10,6 +11,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
+@Slf4j
 public class DemoController {
 
     @Reference(version = "0.0.1")
@@ -19,6 +21,7 @@ public class DemoController {
 
     @GetMapping("demo")
     public String demoMethod(){
+        log.info("demo~~");
         return "a901对你说Say : Hi~~ ";
     }
 
@@ -34,8 +37,6 @@ public class DemoController {
         client.start();
 
         CuratorFrameworkState st = client.getState();
-        System.out.println(st);
-
         return null;
     }
 

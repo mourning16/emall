@@ -10,3 +10,7 @@ dubbo:
     base-packages: cn.com.sinosoft.a901
   consumer:
     check: false
+
+logging:
+  level:
+    root: info

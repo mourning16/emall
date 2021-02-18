@@ -4,10 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
-import org.springframework.context.annotation.ComponentScans;
 import org.springframework.web.WebApplicationInitializer;
 
-@SpringBootApplication(scanBasePackages = {"cn.com.sinosoft"})
+@SpringBootApplication
 public class A901Application extends SpringBootServletInitializer implements WebApplicationInitializer {
 
     public static void main(String[] args) {

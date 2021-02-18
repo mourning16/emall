@@ -46,12 +46,6 @@
         </dependency>
 
         <dependency>
-            <groupId>cn.com.sinosoft</groupId>
-            <artifactId>emall-auth</artifactId>
-            <scope>compile</scope>
-        </dependency>
-
-        <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <scope>provided</scope>
