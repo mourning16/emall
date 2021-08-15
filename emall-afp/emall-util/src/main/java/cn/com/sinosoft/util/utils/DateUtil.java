@@ -10,12 +10,11 @@ import java.util.concurrent.locks.ReentrantLock;
  * @Date 2020/12/30 18:53
  * @Version 1.0
  */
-
 public class DateUtil {
 
     private static ReentrantLock reentrantLock = new ReentrantLock();
 
-    private static final SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
+    private static final SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
 
     public static String dateToStr(Date date){
 

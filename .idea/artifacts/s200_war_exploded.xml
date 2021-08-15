@@ -81,6 +81,21 @@
           <element id="archive" name="emall-util-0.0.1-SNAPSHOT.jar">
             <element id="module-output" name="emall-util" />
           </element>
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-data-redis:2.3.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-redis:2.3.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-keyvalue:2.3.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-commons:2.3.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-oxm:5.2.8.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context-support:5.2.8.RELEASE" />
+          <element id="library" level="project" name="Maven: io.lettuce:lettuce-core:5.3.3.RELEASE" />
+          <element id="library" level="project" name="Maven: io.netty:netty-common:4.1.51.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-handler:4.1.51.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-resolver:4.1.51.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-buffer:4.1.51.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-codec:4.1.51.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-transport:4.1.51.Final" />
+          <element id="library" level="project" name="Maven: io.projectreactor:reactor-core:3.3.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.reactivestreams:reactive-streams:1.0.3" />
           <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.9" />
           <element id="library" level="project" name="Maven: com.alibaba:druid:1.1.1" />
         </element>
